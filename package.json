@@ -1,0 +1,14 @@
+{
+    "name": "doscordbot",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "test": "cross-env CLICOLOR_FORCE=1 LOG=ln,gr go run . -token MTA5MDY1MDc3ODg0MDA3NjQ4OQ.Git8ml.sFYV0aZ9uNDrsRo1ziEfZCmRWs0KtW0WinfJxk",
+        "dev": "cross-env CLICOLOR_FORCE=1 LOG=ln,debug,grl nodemon --exec go run -race . --signal SIGTERM -e go,",
+        "tidy": "go mod tidy"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7",
+        "cross-env": "^7.0.3"
+    }
+}
